@@ -1,0 +1,11 @@
+.post-list {
+  padding: 1rem 0 3rem;
+}
+
+.post-list h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
