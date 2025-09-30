@@ -1,0 +1,92 @@
+.calculator {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.calculator-display {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.display-value {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 100%;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  grid-template-areas: 
+    "clear plusminus percentage divide"
+    "seven eight nine multiply"
+    "four five six subtract"
+    "one two three add"
+    "zero zero decimal equals";
+}
+
+.calculator-buttons > *:nth-child(1) { grid-area: clear; }
+.calculator-buttons > *:nth-child(2) { grid-area: plusminus; }
+.calculator-buttons > *:nth-child(3) { grid-area: percentage; }
+.calculator-buttons > *:nth-child(4) { grid-area: divide; }
+.calculator-buttons > *:nth-child(5) { grid-area: seven; }
+.calculator-buttons > *:nth-child(6) { grid-area: eight; }
+.calculator-buttons > *:nth-child(7) { grid-area: nine; }
+.calculator-buttons > *:nth-child(8) { grid-area: multiply; }
+.calculator-buttons > *:nth-child(9) { grid-area: four; }
+.calculator-buttons > *:nth-child(10) { grid-area: five; }
+.calculator-buttons > *:nth-child(11) { grid-area: six; }
+.calculator-buttons > *:nth-child(12) { grid-area: subtract; }
+.calculator-buttons > *:nth-child(13) { grid-area: one; }
+.calculator-buttons > *:nth-child(14) { grid-area: two; }
+.calculator-buttons > *:nth-child(15) { grid-area: three; }
+.calculator-buttons > *:nth-child(16) { grid-area: add; }
+.calculator-buttons > *:nth-child(17) { grid-area: zero; }
+.calculator-buttons > *:nth-child(18) { grid-area: decimal; }
+.calculator-buttons > *:nth-child(19) { grid-area: equals; }
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .calculator {
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .calculator-display {
+    padding: 15px;
+    min-height: 80px;
+  }
+  
+  .display-value {
+    font-size: 2rem;
+  }
+  
+  .calculator-buttons {
+    gap: 10px;
+  }
+}
+
+/* Animation for display */
+.calculator-display {
+  transition: all 0.3s ease;
+}
+
+.calculator-display:focus-within {
+  box-shadow: 0 0 0 2px rgba(255, 149, 0, 0.5);
+}
