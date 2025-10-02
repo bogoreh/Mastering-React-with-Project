@@ -1,0 +1,68 @@
+.add-item-form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.item-input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.item-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.quantity-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-group label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.quantity-input {
+  width: 80px;
+  padding: 10px;
+  border: 2px solid #e9ecef;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.quantity-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.add-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+  flex: 1;
+}
+
+.add-btn:hover {
+  transform: translateY(-2px);
+}

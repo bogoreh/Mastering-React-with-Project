@@ -1,0 +1,74 @@
+.shopping-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+  transition: all 0.3s ease;
+}
+
+.shopping-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-item.completed {
+  opacity: 0.7;
+  background: #e9ecef;
+  border-left-color: #28a745;
+}
+
+.item-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.item-name {
+  font-weight: 500;
+  color: #495057;
+}
+
+.shopping-item.completed .item-name {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.item-quantity {
+  font-size: 0.85rem;
+  color: #6c757d;
+  background: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  width: fit-content;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #ffe6e6;
+}
