@@ -1,0 +1,14 @@
+.column {
+  width: 350px;
+  height: 100vh;
+  background-color: #192734;
+  border-right: 1px solid #38444d;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.column-content {
+  flex: 1;
+  overflow-y: auto;
+}

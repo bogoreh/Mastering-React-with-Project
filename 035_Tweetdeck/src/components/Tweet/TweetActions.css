@@ -1,0 +1,54 @@
+.tweet-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  max-width: 400px;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: #8899a6;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 20px;
+  transition: all 0.2s;
+  font-size: 13px;
+}
+
+.action-btn:hover {
+  background-color: #1e2732;
+}
+
+.reply-btn:hover {
+  color: #1da1f2;
+}
+
+.retweet-btn:hover {
+  color: #17bf63;
+}
+
+.like-btn:hover {
+  color: #e0245e;
+}
+
+.action-btn.active {
+  color: #e0245e;
+}
+
+.retweet-btn.active {
+  color: #17bf63;
+}
+
+.action-icon {
+  font-size: 16px;
+}
+
+.action-count {
+  font-size: 12px;
+  font-weight: 500;
+}

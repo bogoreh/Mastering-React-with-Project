@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  background-color: #15202b;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 260px;
+  overflow-x: auto;
+}
+
+.columns-container {
+  display: flex;
+  height: 100vh;
+  padding: 0;
+}
