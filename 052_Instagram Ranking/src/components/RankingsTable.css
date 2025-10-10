@@ -1,0 +1,113 @@
+.rankings-table {
+  width: 100%;
+}
+
+.table-header {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.table-header h2 {
+  color: #2D3748;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid #E2E8F0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th {
+  background: #F7FAFC;
+  padding: 15px 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #4A5568;
+  border-bottom: 2px solid #E2E8F0;
+}
+
+td {
+  padding: 15px 12px;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.user-row:hover {
+  background: #F7FAFC;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+.rank-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  min-width: 50px;
+  text-align: center;
+}
+
+.username-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.profile-pic {
+  font-size: 1.2rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EDF2F7;
+  border-radius: 50%;
+}
+
+.engagement-rate {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.view-btn {
+  background: #4299E1;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.view-btn:hover {
+  background: #3182CE;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+  th, td {
+    padding: 10px 8px;
+    font-size: 0.9rem;
+  }
+  
+  .view-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
