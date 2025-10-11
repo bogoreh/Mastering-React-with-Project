@@ -1,0 +1,104 @@
+[
+    {
+        "id": "01",
+        "question" : "The next.js is based upon ?",
+        "options": [
+            "JavaScript",
+            "Python",
+            "React",
+            "Java"
+        ],
+        "answer": "React"
+    },
+    {
+        "id": "02",
+        "question" : "Next.js used for ?",
+        "options": [
+            "Server side",
+            "Client side"
+        ],
+        "answer": "Server side"
+    },
+    {
+        "id": "03",
+        "question" : "Is next.js an open-soure framework?",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes"
+    },
+    {
+        "id": "04",
+        "question" : "Is Next.js a frontend framework or a backend framework?",
+        "options": [
+            "Backend",
+            "Frontend",
+            "Both"
+        ],
+        "answer": "Frontend"
+    },
+    {
+        "id": "05",
+        "question" : "Next.js is written in which of the following language?",
+        "options": [
+            "JavaScript",
+            "TypeScript",
+            "Rust",
+            "All of the above",
+            "Only B and C",
+            "Only A and C"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": "06",
+        "question" : "Who developed Next.js?",
+        "options": [
+            "Tim Berners-Lee",
+            "Guillermo Rauch",
+            "Brendan Eich"
+        ],
+        "answer": "Guillermo Rauch"
+    },
+    {
+        "id": "07",
+        "question" : "In Next.js, we can quickly edit the top section of each react page by using the built-in --- react component?",
+        "options": [
+            "Metadata",
+            "Head",
+            "Top"
+        ],
+        "answer": "Head"
+    },
+    {
+        "id": "08",
+        "question" : "In Next.js, what is the name of the Inbuild CSS-in-js library?",
+        "options": [
+            "Style.js",
+            "Style.css",
+            "Style-jsx"
+        ],
+        "answer": "Style-jsx"
+    },
+    {
+        "id": "09",
+        "question" : "How many types of pre-rendering are supported by Next.js?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "2"
+    },
+    {
+        "id": "10",
+        "question" : "Which of the following pre-rendering method generates the HTML page at build time?",
+        "options": [
+            "Static Generation",
+            "Server-side generation"
+        ],
+        "answer": "Static Generation"
+    }
+]
