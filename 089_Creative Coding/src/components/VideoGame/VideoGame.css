@@ -1,0 +1,133 @@
+.video-game {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  font-family: 'Courier New', monospace;
+  border: 2px solid #00ff00;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+
+.game-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(0, 255, 0, 0.1);
+  border-radius: 10px;
+}
+
+.health-bar {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.health-fill {
+  height: 20px;
+  background: linear-gradient(90deg, #ff0000, #00ff00);
+  border-radius: 10px;
+  transition: width 0.3s ease;
+  border: 1px solid #00ff00;
+}
+
+.game-area {
+  position: relative;
+  height: 400px;
+  background: radial-gradient(circle, #001122, #000011);
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.player-ship {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  z-index: 10;
+}
+
+.player-ship:active {
+  transform: translateX(-50%) scale(0.9);
+}
+
+.laser-beam {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 200px;
+  background: linear-gradient(to top, #00ff00, transparent);
+  animation: laser 0.2s ease;
+}
+
+@keyframes laser {
+  from { height: 0; }
+  to { height: 200px; }
+}
+
+.enemy {
+  position: absolute;
+  top: 50px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  animation: float 3s ease-in-out infinite;
+}
+
+.enemy:hover {
+  transform: scale(1.2);
+}
+
+.enemy.boss {
+  font-size: 3rem;
+  color: #ff0000;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.game-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.game-controls button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.btn-fire {
+  background: linear-gradient(45deg, #ff0000, #ff6b6b);
+  color: white;
+}
+
+.btn-heal {
+  background: linear-gradient(45deg, #00ff00, #96ff00);
+  color: black;
+}
+
+.btn-level {
+  background: linear-gradient(45deg, #00bfff, #0066ff);
+  color: white;
+}
+
+.game-controls button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 255, 0, 0.4);
+}
