@@ -3,7 +3,7 @@ import { getAuth, signInAnonymously } from 'firebase/auth';
 import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCUyPgR8Z7fj3iXS_VXlsZOUurasOnochI",
+    apiKey: "",
     authDomain: "react-chess-d36fb.firebaseapp.com",
     databaseURL: "https://react-chess-d36fb-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "react-chess-d36fb",
