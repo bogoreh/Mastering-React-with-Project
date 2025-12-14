@@ -1,0 +1,187 @@
+.stock-card {
+  background-color: #f8fafc;
+  border-radius: 12px;
+  padding: 18px;
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.stock-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+  border-color: #cbd5e0;
+}
+
+.stock-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.stock-symbol {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sector-indicator {
+  width: 4px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.symbol {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 2px;
+}
+
+.stock-name {
+  font-size: 0.85rem;
+  color: #718096;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.stock-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+
+.edit-btn {
+  background-color: #e2e8f0;
+  color: #4a5568;
+}
+
+.edit-btn:hover {
+  background-color: #cbd5e0;
+}
+
+.delete-btn {
+  background-color: #fed7d7;
+  color: #c53030;
+}
+
+.delete-btn:hover {
+  background-color: #feb2b2;
+}
+
+.stock-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+}
+
+.detail-label {
+  font-size: 0.75rem;
+  color: #718096;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.detail-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.detail-value.positive {
+  color: #10b981;
+}
+
+.detail-value.negative {
+  color: #ef4444;
+}
+
+.edit-shares {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shares-input {
+  width: 70px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e0;
+  font-weight: 600;
+}
+
+.shares-input:focus {
+  outline: none;
+  border-color: #4facfe;
+  box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+}
+
+.save-btn {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.save-btn:hover {
+  background-color: #0da271;
+}
+
+.sector-tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stock-footer {
+  margin-top: 10px;
+}
+
+.value-bar {
+  height: 6px;
+  background-color: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.value-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
