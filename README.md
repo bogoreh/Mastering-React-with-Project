@@ -1,19 +1,3 @@
-Below is a **high-quality, portfolio-grade GitHub README.md** designed for a **100-project repository**.
-It’s clean, recruiter-friendly, and scalable — the kind of README that immediately signals *serious consistency and growth*.
-
-You can paste this **directly** into your repo.
-
----
-
-# 🚀 100 Web Development Projects Collection
-
-A comprehensive collection of **100 web applications and UI experiments**, ranging from beginner-friendly fundamentals to advanced, real-world systems.
-This repository documents my journey through **frontend, full-stack, UI/UX, APIs, real-time apps, dashboards, and design systems**.
-
-Each project lives in its own folder and is numbered for easy navigation.
-
----
-
 ## 🟢 Beginner & Core Foundations (001–020)
 
 1. **Registration Form** – User input & validation basics
@@ -36,8 +20,6 @@ Each project lives in its own folder and is numbered for easy navigation.
 18. **Ecommerce App** – Simple e-commerce UI
 19. **Messaging App** – Chat-style interface
 20. **Social Media App** – Feed & interaction UI
-
----
 
 ## 🟡 Intermediate Applications & APIs (021–050)
 
@@ -72,8 +54,6 @@ Each project lives in its own folder and is numbered for easy navigation.
 49. **Search Bar with Filter** – Advanced search
 50. **To-Do App** – Task tracking app
 
----
-
 ## 🔴 Advanced Apps, Systems & Real-Time (051–080)
 
 51. **Analyze YouTube Comments** – Comment analysis UI
@@ -107,8 +87,6 @@ Each project lives in its own folder and is numbered for easy navigation.
 79. **Pomodoro Timer** – Focus productivity tool
 80. **Personal Web Presence** – Online identity site
 
----
-
 ## 🟣 Expert / Real-World Systems (081–100)
 
 81. **Marketing Launch Page** – Campaign landing page
@@ -128,8 +106,6 @@ Each project lives in its own folder and is numbered for easy navigation.
 95. **House Rental Platform** – Property marketplace
 96. **Hospital Management System** – Healthcare system
 97. **Stock Market Portfolio Tracker** – Investment tracking
-
----
 
 ## 🛠️ Tech Stack
 
