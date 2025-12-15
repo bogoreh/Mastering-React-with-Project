@@ -1,116 +1,158 @@
-## 🟢 Beginner & Core Foundations (001–020)
+## 📂 Projects List
 
-1. **Registration Form** – User input & validation basics
-2. **Simple Quiz** – Multiple-choice quiz logic
-3. **Writing Test** – Typing and writing UI
-4. **Shopping Site** – Basic shopping UI
-5. **Image Gallery** – Responsive image layouts
-6. **Clock App** – Real-time digital clock
-7. **Blog App** – Simple blogging interface
-8. **Recipe Finder App** – Search-based recipe UI
-9. **Expense Tracker** – Track income & expenses
-10. **Blog Platform** – Multi-post blog layout
-11. **Personal Web App** – Personal utility app
-12. **Note Taking App** – Create & manage notes
-13. **Task Management App** – Task CRUD operations
-14. **Customer Dashboard** – Basic dashboard UI
-15. **Weather App** – API-based weather display
-16. **Productivity App** – Daily productivity tools
-17. **Calculator** – Arithmetic operations
-18. **Ecommerce App** – Simple e-commerce UI
-19. **Messaging App** – Chat-style interface
-20. **Social Media App** – Feed & interaction UI
+### 🧾 Forms, Auth & Basics
 
-## 🟡 Intermediate Applications & APIs (021–050)
+1. [Registration Form](./000_Registration%20Form) – User registration form with input handling.
+2. [Login Form with Authentication](./060_Login%20Form%20with%20Authentication) – Auth flow with validation.
+3. [Feedback Form](./041_Feedback%20Form) – Collect user feedback.
+4. [Captcha Generator](./081_Captcha%20Generator) – Generate verification challenges.
 
-21. **YouTube Clone** – Video feed UI
-22. **Shopping List App** – List & item tracking
-23. **Movie Database** – Movie browsing platform
-24. **Sports Score App** – Live score UI
-25. **Book Recommender** – Recommendation system UI
-26. **Video Call App** – Video call interface
-27. **Flight Tracker** – Real-time tracking UI
-28. **Entertainment Applications** – Media hub
-29. **Music Player** – Audio player UI
-30. **GitHub Issue Pages** – Issues-style interface
-31. **Custom Forum** – Discussion board system
-32. **Event Finder** – Event search platform
-33. **Book Finder App** – Book search tool
-34. **Instagram Radio** – Audio-based social UI
-35. **TweetDeck Clone** – Multi-column Twitter UI
-36. **Prayer Time App** – Location-based timings
-37. **Admin Dashboard** – Management dashboard
-38. **Cryptocurrency Tracker** – Crypto prices UI
-39. **Drawing App** – Canvas-based drawing
-40. **Event Scheduler** – Event planning tool
-41. **Feedback Form** – User feedback system
-42. **Inventory Management System** – Stock tracking
-43. **Job Board** – Job listing platform
-44. **Memory Game** – Card-matching game
-45. **URL Shortener** – Link shortening tool
-46. **Shopping Cart** – Cart & checkout UI
-47. **Glassmorphism Design** – Modern UI style
-48. **Image Slider** – Carousel & slider UI
-49. **Search Bar with Filter** – Advanced search
-50. **To-Do App** – Task tracking app
+### 🎮 Quizzes, Games & Fun
 
-## 🔴 Advanced Apps, Systems & Real-Time (051–080)
+5. [Simple Quiz](./001_Simple%20Quiz) – Basic quiz with scoring.
+6. [Quiz Game](./056_Quiz%20Game) – Interactive quiz experience.
+7. [Quiz App](./071_quiz-app) – Quiz with navigation and results.
+8. [Memory Game](./044_memory) – Card memory matching game.
+9. [Multiplayer Chess](./097_Multiplayer%20Chess) – Real-time chess game.
+10. [Game Night](./090_Game%20Night) – Casual games hub.
 
-51. **Analyze YouTube Comments** – Comment analysis UI
-52. **Instagram Ranking** – Ranking analytics
-53. **Create Meme Game** – Meme generator game
-54. **Spend Calculator** – Expense analysis
-55. **Quiz Game** – Interactive quiz engine
-56. **Giphy Clone** – API-powered GIF search
-57. **Meme Maker** – Meme creation tool
-58. **String Art** – Creative coding experiment
-59. **Login Form with Authentication** – Auth flows
-60. **Chat App** – Real-time messaging
-61. **Movie Search App (React)** – React-based app
-62. **Portfolio Website with Resume** – Professional portfolio
-63. **SoundCloud-like Audio Player** – Streaming UI
-64. **Personal Blogging Site** – Blog with identity
-65. **CSS Folder Hover Interaction** – Advanced CSS
-66. **Neumorphic Light Switch** – Neumorphism UI
-67. **Interactive Card UI** – Animated UI cards
-68. **3D Spinning Triangle** – 3D CSS animation
-69. **Quiz App** – Enhanced quiz logic
-70. **Resume Builder Web App** – Resume generator
-71. **Code Snippet Manager** – Developer tool
-72. **Contact Manager** – Contact CRUD system
-73. **Language Learning App** – Learning platform
-74. **Map Application** – Location & map UI
-75. **Recipe Sharing Platform** – Community recipes
-76. **Virtual Job Fair** – Event-based platform
-77. **Random Chat** – Anonymous chat
-78. **Captcha Generator** – Security tool
-79. **Pomodoro Timer** – Focus productivity tool
-80. **Personal Web Presence** – Online identity site
+### 📝 Blogs, Writing & Content
 
-## 🟣 Expert / Real-World Systems (081–100)
+11. [Writing Test](./002_Writing_Test) – Writing input & evaluation UI.
+12. [Blog App](./006_Blog%20App) – Blog CRUD application.
+13. [Blog Platform](./009_Blog%20Platform) – Multi-user blogging system.
+14. [Personal Blogging Site](./065_Personal%20Blogging%20site) – Personal blog website.
+15. [Code Snippet Manager](./073_Code%20Snippet%20Manager) – Save & organize snippets.
 
-81. **Marketing Launch Page** – Campaign landing page
-82. **Global Analysis Dashboard** – Data visualization
-83. **Tech Conference Website** – Event platform
-84. **Open Source Platform** – Community project
-85. **Hackathon Platform** – Hackathon management
-86. **Creative Coding Projects** – Experimental coding
-87. **Game Night App** – Multiplayer fun platform
-88. **Crypto Currency Tracker (Advanced)** – Market analytics
-89. **Notes App** – Advanced note system
-90. **Payment Integration** – Online payment flow
-91. **Dashboard** – Advanced admin dashboard
-92. **Real-Time Chat App** – WebSocket-based chat
-93. **Grocery Delivery App** – Delivery platform
-94. **Multiplayer Chess** – Online chess game
-95. **House Rental Platform** – Property marketplace
-96. **Hospital Management System** – Healthcare system
-97. **Stock Market Portfolio Tracker** – Investment tracking
+### 🛒 E-Commerce & Shopping
 
-## 🛠️ Tech Stack
+16. [Shopping Site](./003_Shopping%20Site) – Online shopping interface.
+17. [Ecommerce Platform](./010_ecommerce%20platform) – Full e-commerce solution.
+18. [Ecommerce App](./018_Ecommerce%20App) – Shop & checkout flow.
+19. [Shopping List App](./022_Shopping%20List%20App) – Grocery/task list.
+20. [Shopping Cart](./046_Shopping%20Card) – Cart management UI.
+21. [Grocery Delivery App](./096_Grocery%20Delivery%20App) – Delivery-based shopping app.
 
-* **Frontend:** HTML, CSS, JavaScript, React
-* **Backend:** Node.js, APIs, Firebase
-* **UI/UX:** CSS animations, glassmorphism, neumorphism
-* **Real-Time:** WebSockets, chat, video
-* **Tools:** Git, GitHub, REST APIs
+### 📊 Dashboards, Analytics & Tracking
+
+22. [Expense Tracker](./008_Expense%20Tracker) – Track expenses visually.
+23. [Customer Dashboard](./014_Customer%20Dashboard) – Customer insights panel.
+24. [Admin Dashboard](./037_Admin%20Dashboard) – Admin controls & metrics.
+25. [Cryptocurrency Tracker](./038_cryptocurrency%20Tracker) – Track crypto prices.
+26. [Global Analysis Dashboard](./085_Global%20Analysis%20Dashboard) – Global data insights.
+27. [Stock Market Portfolio Tracker](./100_Stock%20Market%20Portofolio%20Tracke) – Track investments.
+
+### ☁️ APIs, Data & Utilities
+
+28. [Weather App](./015_Weather%20App) – Weather forecast using API.
+29. [Movie Database](./023_Movie%20Database) – Browse movie data.
+30. [Movie Search App](./062_Movie%20Search%20App%20using%20React) – Search movies via API.
+31. [Book Recommender](./025_Book%20Recommender) – Suggest books dynamically.
+32. [Flight Tracker](./027_Flight%20Tracker) – Track flights in real time.
+
+### 💬 Chat, Social & Communication
+
+33. [Messaging App](./019_Messaging%20app) – Real-time chat UI.
+34. [Chat App](./061_Chat%20app) – Live chat system.
+35. [Real-Time Chat](./095_Real%20Time%20Chat) – WebSocket-based messaging.
+36. [Social Media App](./020_Social%20Media%20App) – Posts, likes & profiles.
+37. [YouTube Clone](./021_Youtube%20Clone) – Video streaming UI.
+38. [TweetDeck](./035_Tweetdeck) – Twitter dashboard clone.
+
+### 🎵 Media, Entertainment & Creative
+
+39. [Music Player](./029_Music%20Player) – Audio player UI.
+40. [SoundCloud-like Player](./064_SoundCloud-like%20audio%20player) – Music streaming UI.
+41. [Image Gallery](./004_Image%20Gallery) – Responsive image grid.
+42. [Image Slider](./048_image-slider) – Sliding image carousel.
+43. [Drawing App](./039_drawing-app) – Canvas drawing application.
+44. [Creative Coding](./089_Creative%20Coding) – Experimental visual projects.
+
+### 🎨 UI, CSS & Design Experiments
+
+45. [Glassmorphism Design](./047_glassmorphism%20design) – Glass UI effects.
+46. [Neumorphic Light Switch](./068_Neumorphic%20Light%20Switch) – Neumorphic UI.
+47. [Interactive Card UI](./069_Interactive%20Card%20UI) – Hover-based cards.
+48. [3D Spinning Triangle](./070_3D-spinning%20Triangle) – CSS/3D animation.
+49. [CSS Hover Interactions](./066_CSS%20Folder%20+%20Hover%20Interaction) – Advanced hover effects.
+
+### 🏢 Platforms & Systems
+
+50. [Inventory Management System](./042_Inventory%20Management%20system) – Inventory tracking.
+51. [Job Board](./043_Job%20Board) – Job listing platform.
+52. [House Rental Platform](./098_House%20Rental%20Platform) – Rental listings app.
+53. [Hospital Management System](./099_Hospital%20Management%20System) – Hospital operations system.
+54. [Virtual Job Fair](./078_Virtual%20Job%20Fair) – Online hiring event platform.
+
+### 🚀 Personal, Portfolio & Launch
+
+55. [Personal Web App](./011_personal%20web%20app) – Personal utilities app.
+56. [Portfolio Website with Resume](./063_Portfolio%20Website%20With%20Resume) – Portfolio & CV.
+57. [Resume Builder App](./072_Resume%20Builder%20Web%20Application) – Generate resumes.
+58. [Marketing Launch](./084_Marketing%20Launch) – Product launch page.
+59. [Tech Conference](./086_Tech%20Conference) – Conference website.
+
+### 🧪 Experiments & Misc
+
+60. [URL Shortener](./045_shortener_url) – Shorten long URLs.
+61. [Search Bar with Filter](./049_search-bar-with-filter) – Filterable search input.
+62. [Pomodoro Timer](./082_pomodoro-timer) – Focus timer app.
+63. [Prayer Time App](./036_prayertime) – Prayer time calculator.
+64. [Analyze YouTube Comments](./051_Analyze%20Youtube%20Comments) – Comment sentiment analysis.
+
+### 🧪 Experiments, Tools & Misc (continued)
+
+65. [Instagram Ranking](./052_Instagram%20Ranking) – Rank Instagram accounts based on engagement data.
+66. [Create Meme Game](./053_create-meme-game) – Generate memes interactively with images and text.
+67. [Spend Calculator](./055_spend-calculator) – Calculate and analyze spending patterns.
+68. [Giphy Clone](./057_Giphy's%20API%20to%20recreate%20Giphy) – Recreate Giphy using its public API.
+69. [Meme Maker](./058_MemeMaker) – Create and export custom memes.
+70. [String Art](./059_String%20Art) – Generate artistic patterns using strings and math.
+
+### 🔐 Authentication, Forms & Inputs
+
+71. [Contact Manager](./074_Contact%20Manager) – Manage contacts with add/edit/delete features.
+72. [Language Learning App](./075_Language%20Leraning%20App) – Learn new languages with lessons and quizzes.
+73. [Event Scheduler](./040_event%20scheduler) – Schedule and manage events.
+74. [Event Finder](./032_EventFinder) – Discover events by location and category.
+75. [Feedback Collection System](./041_Feedback%20Form) – Centralized user feedback tool.
+
+### 🗺️ Maps, Location & Tracking
+
+76. [Map Application](./076_Map%20Application) – Interactive maps with markers and data.
+77. [Flight Tracker](./027_Flight%20Tracker) – Monitor flight status and routes.
+78. [Pumpduler](./079_pumpduler) – Custom scheduling & planning tool.
+
+### 💬 Real-Time, Chat & Communication
+
+79. [Random Chat](./080_Random%20Chat) – Chat randomly with online users.
+80. [Video Call App](./026_Video%20Call%20App) – Real-time video calling interface.
+81. [Instagram Radio](./034_Instagram%20Radio) – Audio streaming inspired by Instagram.
+
+### 🎨 UI, CSS & Visual Experiments (continued)
+
+82. [Glassmorphism Design](./047_glassmorphism%20design) – Frosted-glass UI components.
+83. [Image Slider](./048_image-slider) – Auto/manual image carousel.
+84. [Search Bar with Filter](./049_search-bar-with-filter) – Dynamic filtering search input.
+85. [CSS Hover Interaction](./067_CSS%20Folder%20+%20Hover%20Interaction) – Advanced hover effects.
+
+### 🚀 Platforms, Launches & Open Source
+
+86. [Open Source Project](./087_Open%20Source) – Community-driven open-source app.
+87. [Hackathon Project](./088_Hackaton) – Rapidly built hackathon solution.
+88. [Entertainment Applications](./028_Entertainment%20Applications) – Collection of entertainment apps.
+
+### 🏁 Final Projects (90–100)
+
+89. [Personal Web Presence](./083_Personal%20Web%20Presence) – Online personal identity site.
+90. [Marketing Launch](./084_Marketing%20Launch) – Product launch landing page.
+91. [Crypto Currency Tracker](./091_Crypto%20Currency%20Tracker) – Track cryptocurrency prices.
+92. [Notes App](./092_Notes) – Simple note-taking application.
+93. [Payment Integration](./093_Payment%20Integration) – Payment gateway integration demo.
+94. [Dashboard](./094_Dashboard) – Generic admin/data dashboard layout.
+95. [Real-Time Chat](./095_Real%20Time%20Chat) – Live messaging with sockets.
+96. [Grocery Delivery App](./096_Grocery%20Delivery%20App) – Order groceries online.
+97. [Multiplayer Chess](./097_Multiplayer%20Chess) – Online chess with real-time gameplay.
+98. [House Rental Platform](./098_House%20Rental%20Platform) – Property rental management system.
+99. [Hospital Management System](./099_Hospital%20Management%20System) – Manage hospital operations digitally.
+100. [Stock Market Portfolio Tracker](./100_Stock%20Market%20Portofolio%20Tracke) – Track stocks, gains, and investments.
